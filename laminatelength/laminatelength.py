@@ -5,9 +5,9 @@ import sys, getopt
 from laminatebow import LaminateBow
 
 def Usage():
-	'''Show usage information'''
+	"""Show usage information"""
 	print
-	print "Usage: laminatelengths [OPTIONS]"
+	print "Usage: laminatelength [OPTIONS]"
 	print
 	print "OPTIONS:"
 	print	
@@ -22,7 +22,7 @@ def Usage():
 	print
 
 def main():
-	'''The main program'''
+	"""The main program"""
 
 	# Some default variables
 	maxlength = None
